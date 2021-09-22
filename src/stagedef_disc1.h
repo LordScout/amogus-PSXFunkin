@@ -1,8 +1,8 @@
 	{ //StageId_1_1 (Sussus Mogus)
 		//Characters
-		{Char_BF_New,    FIXED_DEC(60,1),  FIXED_DEC(100,1)},
-		{Char_Tank_New, FIXED_DEC(-120,1),  FIXED_DEC(100,1)},
-		{Char_GF_New,     FIXED_DEC(0,1),    FIXED_DEC(0,1)},
+		{Char_BF_New,    FIXED_DEC(60,1),  FIXED_DEC(80,1)},
+		{Char_Tank_New, FIXED_DEC(-120,1),  FIXED_DEC(80,1)},
+		{Char_GF_New,     FIXED_DEC(0,1),    FIXED_DEC(-20,1)},
 		
 		//Stage background
 		Back_Week2_New,
@@ -16,9 +16,9 @@
 	},
 	{ //StageId_1_2 (Sabatoge)
 		//Characters
-		{Char_BF_New,    FIXED_DEC(60,1),  FIXED_DEC(100,1)},
-		{Char_Tank_New, FIXED_DEC(-120,1),  FIXED_DEC(100,1)},
-		{Char_GFDead_New,     FIXED_DEC(0,1),    FIXED_DEC(0,1)},
+		{Char_BF_New,    FIXED_DEC(60,1),  FIXED_DEC(80,1)},
+		{Char_Tank_New, FIXED_DEC(-120,1),  FIXED_DEC(80,1)},
+		{Char_GFDead_New,     FIXED_DEC(0,1),    FIXED_DEC(-20,1)},
 		
 		//Stage background
 		Back_Week2_New,
@@ -32,9 +32,9 @@
 	},
 	{ //StageId_1_3 (Meltdown)
 		//Characters
-		{Char_BFDead_New,    FIXED_DEC(60,1),  FIXED_DEC(105,1)},
-		{Char_Red_New, FIXED_DEC(-120,1),  FIXED_DEC(100,1)},
-		{Char_GFDead_New,     FIXED_DEC(0,1),    FIXED_DEC(0,1)},
+		{Char_BFDead_New,    FIXED_DEC(60,1),  FIXED_DEC(80,1)},
+		{Char_Red_New, FIXED_DEC(-120,1),  FIXED_DEC(80,1)},
+		{Char_GFDead_New,     FIXED_DEC(0,1),    FIXED_DEC(-20,1)},
 		
 		//Stage background
 		Back_Week7_New,
