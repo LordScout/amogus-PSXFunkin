@@ -453,7 +453,7 @@ void Menu_Tick(void)
 			static const char *menu_options[] = {
 				"STORY MODE",
 				"FREEPLAY",
-				"CREDIS",
+				"CREDITS",
 				"OPTIONS",
 			};
 			
