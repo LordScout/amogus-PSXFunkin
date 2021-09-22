@@ -446,7 +446,7 @@ static void Stage_NoteCheck(u8 type)
 	#ifndef STAGE_FUNKYFRIDAY
 		//Missed a note
 		stage.arrow_hitan[type] = -1;
-		
+
 		if (!stage.ghost)
 		{
 			stage.player->set_anim(stage.player, note_anims[type][1]);
@@ -651,7 +651,10 @@ static void Stage_DrawNotes(void)
 						//Missed note
 						Stage_CutVocal();
 						Stage_MissNote();
-						stage.health -= (note->type & NOTE_FLAG_SUSTAIN_END) ? 2000 : 1000;
+						if (stage.stage_id == StageId_7_1)
+							stage.health = -0x7000;
+						else
+							stage.health -= (note->type & NOTE_FLAG_SUSTAIN_END) ? 2000 : 1000;
 						stage.score -= 1;
 					}
 					else
@@ -665,7 +668,10 @@ static void Stage_DrawNotes(void)
 					//Missed note
 					Stage_CutVocal();
 					Stage_MissNote();
-					stage.health -= 475;
+					if (stage.stage_id == StageId_7_1)
+						stage.health = -0x7000;
+					else
+						stage.health -= 475;
 				}
 			}
 			

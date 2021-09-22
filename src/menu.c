@@ -704,8 +704,9 @@ void Menu_Tick(void)
 				{StageId_6_1, "SUSSY BUSSY"},
 				{StageId_6_2, "RIVALS"},
 				{StageId_6_3, "CHEWMATE"},
-				{StageId_7_3, "DEFEAT"},
+				{StageId_7_1, "DEFEAT"},
 				{StageId_7_2, "DOUBLE TROUBLE"},
+				{StageId_7_3, "DEFEAT BABY MODE"},
 			};
 			
 			//Initialize page

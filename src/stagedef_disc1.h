@@ -340,7 +340,7 @@
 		StageId_6_3, 0
 	},
 	
-	{ //StageId_7_1 (Stress)
+	{ //StageId_7_1 (Defeat)
 		//Characters
 		{Char_BF_New,    FIXED_DEC(105,1),  FIXED_DEC(100,1)}, //TODO: carry gf
 		{Char_Mom_New, FIXED_DEC(-127,1),  FIXED_DEC(105,1)},
@@ -372,7 +372,7 @@
 		
 		StageId_7_3, STAGE_LOAD_FLAG | STAGE_LOAD_PLAYER | STAGE_LOAD_OPPONENT | STAGE_LOAD_GIRLFRIEND
 	},
-	{ //StageId_7_3 (Stress)
+	{ //StageId_7_3 (Defeat Baby Mode)
 		//Characters
 		{Char_BF_New,    FIXED_DEC(105,1),  FIXED_DEC(100,1)}, //TODO: carry gf
 		{Char_Mom_New, FIXED_DEC(-127,1),  FIXED_DEC(105,1)},
